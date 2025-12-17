@@ -4,8 +4,8 @@ import os
 
 # CONFIGURATION
 API_KEY = os.environ["API_KEY"]
-SYMBOL = "IBM"          # change later
-TARGET_PRICE = 160.0    # change later
+SYMBOL = "NVDA"          # change later
+TARGET_PRICE = 180.0    # change later
 
 EMAIL = os.environ["EMAIL"]
 EMAIL_PASSWORD = os.environ["EMAIL_PASSWORD"]
