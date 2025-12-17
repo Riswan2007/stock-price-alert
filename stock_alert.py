@@ -19,7 +19,7 @@ def get_stock_price():
     return float(data["Global Quote"]["05. price"])
 
 def send_email(price):
-    message = f"""Subject: Stock Alert 🚨
+    message = f"""Subject: Stock Alert
 
 {SYMBOL} price reached {price}
 Target price was {TARGET_PRICE}
